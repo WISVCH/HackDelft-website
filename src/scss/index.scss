@@ -1,1 +1,19 @@
 @import 'constants';
+
+body {
+	font-family: $main_font;
+	color: $primary_color;
+	background-color: $secondary_color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $header_font;
+}
+
+p {
+	line-height: 1.5;
+
+	a {
+		color: $accent_color;
+	}
+}
