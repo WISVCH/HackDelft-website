@@ -12,4 +12,6 @@ COPY . /app
 
 EXPOSE 3000
 
+CMD ["gulp", "es6"]
+CMD ["gulp", "sass"]
 CMD ["npm", "start"]

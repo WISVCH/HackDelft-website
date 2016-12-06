@@ -1,11 +1,16 @@
 const express = require('express')
 const app = express()
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://mongo:27017')
+//mongoose.connect('mongodb://mongo:27017')
+
+app.set('view engine', 'ejs')
+app.set('views', './src/views/')
+
+app.use(express.static('./build'))
 
 app.get('/', (req, res) => {
-	res.send("Hello World")
+	res.render('index');
 })
 
 app.listen(3000, () => {
