@@ -10,8 +10,9 @@ RUN npm install
 
 COPY . /app
 
+RUN gulp es6
+RUN gulp sass
+
 EXPOSE 3000
 
-CMD ["gulp", "es6"]
-CMD ["gulp", "sass"]
 CMD ["npm", "start"]
