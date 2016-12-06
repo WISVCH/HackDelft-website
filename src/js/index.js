@@ -1,4 +1,4 @@
-import textPrinter from './textPrinter';
-import { a, b } from './constants';
+import printText from './textPrinter';
+import sumNumbers, { a, b } from './constants';
 
-textPrinter.print(a + b);
+printText(sumNumbers(a, b));
