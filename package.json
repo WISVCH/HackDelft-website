@@ -46,6 +46,7 @@
     "gulp-uglify": "^2.0.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
+    "event-stream": "^3.3.4",
     "watchify": "^3.7.0"
   }
 }
