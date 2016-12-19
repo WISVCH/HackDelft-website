@@ -1,0 +1,19 @@
+.facebook,
+.twitter,
+.linkedin {
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	margin: -.25em;
+
+	background: no-repeat top;
+	background-size: 100%;
+
+	&:hover {
+		background-position: bottom;
+	}
+}
+
+.facebook { background-image: url(/images/facebook.svg); }
+.twitter  { background-image: url(/images/twitter.svg);  }
+.linkedin { background-image: url(/images/linkedin.svg); }

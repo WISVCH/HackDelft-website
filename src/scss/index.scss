@@ -1,19 +1,46 @@
 @import 'constants';
+@import 'normalize';
+@import 'layout';
 
 body {
 	font-family: $main_font;
 	color: $primary_color;
-	background-color: $secondary_color;
+	background-color: $background_color;
+
+	min-height: 100vh;
+
+	border: 4em solid;
+	border-image: url(/images/page_border.svg) 25% round;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $header_font;
 }
 
+a {
+	text-decoration: none;
+	color: $accent_color;
+}
+
 p {
 	line-height: 1.5;
 
 	a {
-		color: $accent_color;
+		color: currentColor;
+		text-decoration: underline;
 	}
 }
+
+.button {
+	padding: .5em;
+
+	border: .2rem solid;
+	border-radius: .25rem;
+}
+
+.accent {
+	background-color: $accent_color;
+	color: $background_color;
+}
+
+@import 'components/index';

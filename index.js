@@ -10,7 +10,11 @@ app.set('views', './src/views/')
 app.use(express.static('./build'))
 
 app.get('/', (req, res) => {
-	res.render('index', { title: "HackDelft" });
+	res.render('pages/home')
+})
+
+app.get('/faq', (req, res) => {
+	res.render('pages/faq')
 })
 
 app.listen(3000, () => {

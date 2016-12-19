@@ -1,5 +1,26 @@
 <% include ../partials/head %>
 
-<h1><%= title%></h1>
+<header class="wrapper">
+	<div class="row center">
+		<img class="col-12" src="/images/hackdelft_logo_full.svg" height="96px">
+		<p class="col-12">13-05-2017 - 14-05-2017</p>
+		<div class="col-3">
+			<img class="figure" src="/images/mannetje.svg">
+		</div>
+		<h1 class="col-6">This year, the Study Association <em>W.I.S.V. 'Christiaan Huygens'</em> organises the first ever hackathon @ the TU Delft.</h1>
+		<div class="col-3">
+			<img class="figure" src="/images/vrouwtje.svg">
+		</div>
+		<p class="col-12">Come back soon for more info and registrations!</p>
+	</div>
+</header>
+
+<main>
+	<% include ../partials/sections/about %>
+	<% include ../partials/sections/schedule %>
+	<% include ../partials/sections/faq %>
+	<% include ../partials/sections/workshops %>
+	<% include ../partials/sections/sponsors %>
+</main>
 
 <% include ../partials/foot %>

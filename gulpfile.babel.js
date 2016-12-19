@@ -13,8 +13,9 @@ import gutil      from 'gulp-util';
 import uglify     from 'gulp-uglify';
 import sourcemaps from 'gulp-sourcemaps';
 
-const es6Source  = 'src/js/**/*.js';
-const sassSource = 'src/scss/**/*.scss';
+const es6Source    = 'src/js/**/*.js';
+const sassSource   = 'src/scss/**/*.scss';
+const imageSource = 'src/images/**';
 
 gulp.task('es6', () => {
     console.log('Updating js');
@@ -55,6 +56,12 @@ gulp.task('sass', () => {
         .pipe(gulp.dest('build/css'));
 });
 
+gulp.task('images', () => {
+    console.log('Updating images');
+    return gulp.src(imageSource)
+        .pipe(gulp.dest('build/images'));
+})
+
 gulp.task('sass:watch', () => {
     gulp.watch(sassSource, ['sass']);
 });
@@ -63,5 +70,9 @@ gulp.task('es6:watch', () => {
     gulp.watch(es6Source, ['es6']);
 });
 
-gulp.task('watch', ['es6:watch', 'sass:watch']);
-gulp.task('default', ['es6', 'sass', 'watch']);
+gulp.task('images:watch', () => {
+    gulp.watch(imageSource, ['images']);
+});
+
+gulp.task('watch', ['images:watch', 'es6:watch', 'sass:watch']);
+gulp.task('default', ['images', 'es6', 'sass', 'watch']);

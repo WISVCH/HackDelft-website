@@ -1,0 +1,1150 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"backgo",
+				"background"
+			],
+			[
+				"co",
+				"col-3"
+			],
+			[
+				"E",
+				"EDEDED"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"cre",
+				"createElement()\tReact"
+			],
+			[
+				"getElements",
+				"getElementsByClassName"
+			],
+			[
+				"report",
+				"reportflip_logo"
+			],
+			[
+				"mongo",
+				"mongodata"
+			],
+			[
+				"text-c",
+				"text-decoration"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"querySelec",
+				"querySelectorAll"
+			],
+			[
+				"getElement",
+				"getElementsByTagName"
+			],
+			[
+				"ff",
+				"FFFFFF"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"fig",
+				"figcaption\tTag"
+			],
+			[
+				"lo",
+				"oras_logo_notext_black"
+			],
+			[
+				"backgroun",
+				"background-image"
+			],
+			[
+				"backgrou",
+				"background-position"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"Fil",
+				"FileConverter"
+			],
+			[
+				"even",
+				"eventStream"
+			],
+			[
+				"fon-t",
+				"font-weight"
+			],
+			[
+				"plaey",
+				"playerList"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"team",
+				"teamCards"
+			],
+			[
+				"tem",
+				"teamCards"
+			],
+			[
+				"is",
+				"isSpinning"
+			],
+			[
+				"positio",
+				"positionWheel"
+			],
+			[
+				"for",
+				"fortuneWheels"
+			],
+			[
+				"option",
+				"optionInterval"
+			],
+			[
+				"For",
+				"FortuneWheels"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"accel",
+				"accelerating"
+			],
+			[
+				"angle",
+				"angleDifference"
+			],
+			[
+				"current",
+				"currentOption"
+			],
+			[
+				"tran",
+				"translateZ"
+			],
+			[
+				"elem",
+				"element"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"create",
+				"createOption"
+			],
+			[
+				"confi",
+				"confirmationMessage"
+			],
+			[
+				"start",
+				"startTime"
+			],
+			[
+				"Team",
+				"TeamCards"
+			],
+			[
+				"name",
+				"nameWheel"
+			],
+			[
+				"imp",
+				"import"
+			],
+			[
+				"query",
+				"querySelector"
+			],
+			[
+				"querysel",
+				"querySelectorAll"
+			],
+			[
+				"container",
+				"container-no"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"data",
+				"data-tabId"
+			],
+			[
+				"im",
+				"imageModalController"
+			],
+			[
+				"id",
+				"_id"
+			],
+			[
+				"proot",
+				"prototype"
+			],
+			[
+				"proto",
+				"protoType"
+			],
+			[
+				"list",
+				"listController"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"toggle",
+				"toggleTab"
+			],
+			[
+				"invite",
+				"inviteLink"
+			],
+			[
+				"Page",
+				"PageHeader"
+			],
+			[
+				"form",
+				"formReducer"
+			],
+			[
+				"from",
+				"fromJS"
+			],
+			[
+				"input",
+				"inputValue"
+			],
+			[
+				"inpu",
+				"inputValue"
+			],
+			[
+				"not",
+				"NotFoundPage"
+			],
+			[
+				"defau",
+				"defaultMessage"
+			],
+			[
+				"lists",
+				"listsById"
+			],
+			[
+				"fromList",
+				"fromListsById"
+			],
+			[
+				"middl",
+				"middleware"
+			],
+			[
+				"add",
+				"addPromiseSupportToDispatch"
+			],
+			[
+				"Togg",
+				"ToggleMenuSplit"
+			],
+			[
+				"Toggle",
+				"ToggleMenuItem"
+			],
+			[
+				"List",
+				"ListThumbList"
+			],
+			[
+				"Lis",
+				"ListThumbList"
+			],
+			[
+				"config",
+				"configureStore"
+			],
+			[
+				"com",
+				"componentDidMount\tLife Cycle Method"
+			],
+			[
+				"ge",
+				"getInitialState\tLife Cycle Method"
+			],
+			[
+				"fi",
+				"__filename"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"fir",
+				"firstBrowser"
+			],
+			[
+				"sm",
+				"smtpConfig"
+			],
+			[
+				"w",
+				"waitForElementVisible"
+			],
+			[
+				"get",
+				"getInviteLink"
+			],
+			[
+				"return",
+				"returnCrate"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"re",
+				"resourceDir"
+			],
+			[
+				"renam",
+				"renameList"
+			],
+			[
+				"ren",
+				"renameList"
+			],
+			[
+				"ava",
+				"avatar"
+			],
+			[
+				"up",
+				"updateThumb"
+			],
+			[
+				"beer",
+				"beerListContainer"
+			],
+			[
+				"user",
+				"userData"
+			],
+			[
+				"bro",
+				"broadcastUpdate"
+			],
+			[
+				"email",
+				"emailInput"
+			],
+			[
+				"max",
+				"maxlength"
+			],
+			[
+				"wa",
+				"waitForElementNotVisible"
+			],
+			[
+				"togg",
+				"toggleMenu"
+			],
+			[
+				"Ve",
+				"VERSION"
+			],
+			[
+				"sub",
+				"substring"
+			],
+			[
+				"stri",
+				"stringify"
+			],
+			[
+				"json",
+				"JSON"
+			],
+			[
+				"cent",
+				"centerY"
+			],
+			[
+				"pie",
+				"pieces"
+			],
+			[
+				"mo",
+				"moveSquare"
+			],
+			[
+				"square",
+				"squarePosition"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"updat",
+				"updateAvatar"
+			],
+			[
+				"emai",
+				"emailInput"
+			],
+			[
+				"av",
+				"avatarInput"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"so",
+				"socketHandler"
+			],
+			[
+				"un",
+				"unreturnCrate"
+			],
+			[
+				"retun",
+				"returnCrate"
+			],
+			[
+				"remov",
+				"removeFromUser"
+			],
+			[
+				"socke",
+				"socketController"
+			],
+			[
+				"unb",
+				"unbuyCrate"
+			],
+			[
+				"redis",
+				"redisClient"
+			],
+			[
+				"cookie",
+				"cookieParser"
+			],
+			[
+				"origina",
+				"originalUrl"
+			],
+			[
+				"socket",
+				"socketConnection"
+			],
+			[
+				"parent",
+				"parentElement"
+			],
+			[
+				"ELEM",
+				"elements"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/scss/_constants.scss",
+			"settings":
+			{
+				"buffer_size": 149,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/index.scss",
+			"settings":
+			{
+				"buffer_size": 254,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/_normalize.scss",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 229.0,
+		"history":
+		[
+			"var x = 1",
+			"?",
+			"help",
+			"cd ~/repositories",
+			"bash",
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/wouterraateland/repositories/HackDelft-website",
+		"/Users/wouterraateland/repositories/HackDelft-website/src",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/pages",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials"
+	],
+	"file_history":
+	[
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/head.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/nav.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/pages/faq.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/pages/home.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/index.js",
+		"/Users/wouterraateland/repositories/HackDelft-website/.gitignore",
+		"/Users/wouterraateland/repositories/HackDelft-website/hackdelft.sublime-project",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/page-with-table-of-contents.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/index.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/single.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/page.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/template-parts/post/content.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/template-parts/page/content-page.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/header.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/template-parts/navigation/navigation-top.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/footer.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/functions.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/scripts.js",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/style.css",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/README.txt",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Website/index.html",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/front-page.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Website/styles.css",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/404.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/archive.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/comments.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/search.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/searchform.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/sidebar.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/inc/back-compat.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/inc/color-patterns.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/inc/custom-header.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/inc/customizer.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/inc/icon-functions.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/inc/template-functions.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/inc/template-tags.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/template-parts/footer/footer-widgets.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/template-parts/footer/site-info.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/template-parts/header/header-image.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/template-parts/header/site-branding.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/template-parts/page/content-front-page-panels.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/template-parts/page/content-front-page.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/template-parts/post/content-audio.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/template-parts/post/content-excerpt.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/template-parts/post/content-gallery.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/template-parts/post/content-image.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/template-parts/post/content-none.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/template-parts/post/content-video.php",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme/styles.css",
+		"/Users/wouterraateland/Google Drive/Websites/current/ReportFlip/website/index.html",
+		"/Users/wouterraateland/Google Drive/Websites/current/ReportFlip/website/assets/images/star_inverse.svg",
+		"/Users/wouterraateland/Google Drive/Websites/current/ReportFlip/website/styles.css",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Website/about/history.html",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Website/about/index.html",
+		"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Website/normalize.css",
+		"/Users/wouterraateland/Google Drive/Websites/current/ReportFlip/website/normalize.css",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/src/views/pages/home.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/src/views/partials/head.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/src/views/partials/foot.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/src/js/textPrinter.js",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/index.js",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/src/js/index.js",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/src/views/index.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/src/scss/index.scss",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/src/scss/_constants.scss",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/src/js/constants.js",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/.gitignore",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/Dockerfile",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/gulpfile.babel.js",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/src",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/package.json",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/.babelrc",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/webpack.config.js",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/docker-compose.yml",
+		"/Users/wouterraateland/Google Drive/Websites/current/HackDelft-website/README.md",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/build/js/bundle.js",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/views/pages/contact.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/build/css/styles.css",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/views/pages/members.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/views/pages/home.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/views/partials/member.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/views/pages/member.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/members.json",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/server.js",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/views/pages/404.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/build/css/normalize.css",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/views/pages/temp/innopay.ejs",
+		"/Users/wouterraateland/Desktop/BTC1511_Map_Graphic_EUROPE.png",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/views/partials/nav.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/config.js",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/.gitignore",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/app.js",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/scss/_constants.scss",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/scss/main.scss",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/node_modules/node-sass/src/libsass/src/color_maps.cpp",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/scss/nav.scss",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/scss/styles.scss",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/scss/constants.scss",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/scss/layout.scss",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/scss/basic.scss",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/scss/publications.scss",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/scss/hero.scss",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/scss/social.scss",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/scss/normalize.scss",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/views/partials/footer.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/dist/css/styles.css",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/views/pages/publications.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/dist/js/bundle.js",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/dist/assets/images/facebook.svg",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/articles.json",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/views/pages/home.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/server.js",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/dist/css/normalize.css",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/views/partials/nav.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/views/pages/contact.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/views/pages/members.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/views/pages/awards.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/views/partials/foot.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/views/partials/head.ejs",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/package.json",
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/dist/cssstyles.css",
+		"/Users/wouterraateland/Google Drive/ORAS/Website/assets/images/loop.svg",
+		"/Users/wouterraateland/Google Drive/ORAS/Website/assets/images",
+		"/Users/wouterraateland/Google Drive/ORAS/Website/normalize.css",
+		"/usr/local/mysql-5.7.9-osx10.9-x86_64/support-files/my-default.cnf",
+		"/Users/wouterraateland/Desktop/hoi.html",
+		"/Users/wouterraateland/Downloads/datasets/example.in",
+		"/Users/wouterraateland/Downloads/datasets/dataset7.in"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 154.0,
+		"where_history":
+		[
+			"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme",
+			"<open folders>",
+			"/Users/wouterraateland/pilsmeister/src",
+			"/Users/wouterraateland/pilsmeister/server",
+			"/Users/wouterraateland/pilsmeister",
+			"/Users/wouterraateland/Google Drive/Websites/Punch/bekendmaaktool/src",
+			"/Users/wouterraateland/Google Drive/Websites/Punch/bekendmaaktool",
+			"/Users/wouterraateland/pilsmeister/",
+			"/Users/wouterraateland/pilsmeister/public/js",
+			"/Users/wouterraateland/pilsmeister",
+			"/Users/wouterraateland/pilsmeister/react-boilerplate",
+			"/Users/wouterraateland/BleedingEdgePilsmeister/react-boilerplate",
+			"~/pilsmeister/app",
+			"~/pilsmeister nopass",
+			"~/pilsmeister/public",
+			"~/pilsmeister/app",
+			"~/pilsmeister,-~/pilsmeister/node_modules",
+			"~/pilsmeister",
+			"~/pilsmeister/public",
+			"~/pilsmeister/views/app",
+			"~/pilsmeister/public",
+			"~/pilsmeister",
+			"~/pilsmeister/public",
+			"~/pilsmeister",
+			"~/pilsmeister/views",
+			"~/pilsmeister",
+			"<current file>",
+			"/Users/wouterraateland/pilsmeister/public",
+			"<open folders>",
+			"<current file>",
+			"<open folders>",
+			"<current file>,<open folders>",
+			"<current file>",
+			"<open folders>",
+			"<current file>",
+			"/Users/wouterraateland/Google Drive/Pilsmeister/Website/V2",
+			"<current file>",
+			"/Users/wouterraateland/Google Drive/Pilsmeister/Website/V1",
+			"<current file>",
+			"",
+			"logged.php",
+			"main.js",
+			"scripts.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"border-bottom",
+			"right",
+			"left",
+			".left",
+			"[].slice.call",
+			"frontend",
+			"let",
+			"const",
+			"Template Name",
+			"entry-header",
+			"header class=\"entry-header",
+			"col_",
+			"template-parts/post/content",
+			"#post-##",
+			"post/content",
+			"article",
+			"row hero",
+			"div",
+			"migrate",
+			"jquery",
+			"../",
+			"Myriad Pro/",
+			"Myriad Pro",
+			"Myriad",
+			"twentyseventeen_setup",
+			"twentyseventeen_scripts",
+			"assets",
+			"assets/",
+			"pipe",
+			".dark",
+			"nav",
+			"li",
+			" * @package WordPress\n * @subpackage Twenty_Seventeen",
+			".wrapp",
+			"header",
+			"iframe",
+			"]",
+			"']",
+			"{",
+			" {",
+			"div",
+			"</li>",
+			"<li>\n",
+			"<li>",
+			"div",
+			".big",
+			"Buy",
+			"row dark",
+			"\t\t\t<",
+			"See first pages",
+			".image",
+			"aside",
+			"main",
+			"header",
+			"boxed",
+			"class=\"more\"",
+			".more",
+			"more",
+			"h2",
+			"header",
+			"header h1",
+			"content:",
+			"h3",
+			"header",
+			"div class=\"feature",
+			"div class",
+			".boxed",
+			"a:hover",
+			"717171",
+			"#717171",
+			"main",
+			"h1",
+			"ffdd00",
+			"p>",
+			"p",
+			"full",
+			"half",
+			"third",
+			"fff",
+			"nextSlide",
+			"element",
+			"kind",
+			"child",
+			"col",
+			"li",
+			"border-radiu",
+			"box-sizing",
+			"</p>",
+			"<p>",
+			"third",
+			"dist",
+			"\"",
+			"h2",
+			"ec5",
+			"border-radi",
+			"border-radi\t",
+			".contact",
+			"aside",
+			"nav ",
+			"#filter ",
+			"aside",
+			"\"type\"",
+			"type",
+			"\"> ",
+			"value",
+			"</li>",
+			"footer",
+			"input",
+			"link",
+			"class=\"active\"",
+			"<li>",
+			"</li>",
+			"<li>",
+			"color",
+			"header",
+			"left: 0",
+			"main",
+			"footer",
+			"h2",
+			"&nbsp;",
+			" style=\"text-align: justify;\"",
+			" style=\"color: #000000; text-align: justify;\"",
+			"nav ul§",
+			"vertical-align",
+			"half",
+			"#\"",
+			".slide a",
+			"box-sizing"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" * @package ORAS\n * @subpackage ORAS",
+			"require('",
+			"find",
+			":empty",
+			"socket.user",
+			"addCrate.bind(this)",
+			"ListUser.",
+			"",
+			"#fdfcf5",
+			"url(/assets/images",
+			"function (",
+			"/beer",
+			"res.redirect('/beer');",
+			"GET",
+			"s12",
+			"#fcd100",
+			"#170d05",
+			"gemaakt",
+			"user",
+			"user[",
+			"user.",
+			"parentElement",
+			"rgba(0, 0, 0, .1)",
+			"col c12",
+			"col c10",
+			"col c6",
+			"function (",
+			"Scroller",
+			"filling dark",
+			"images/splash",
+			"\"images/apple/apple"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/scss/_constants.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								23
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/scss/index.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/scss/_normalize.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 53.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "hackdelft.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Google Drive/Websites/current/ORAS/Theme/oras.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 368.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 736.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
