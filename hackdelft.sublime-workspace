@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"acc",
+				"accent_color"
+			],
+			[
+				"back",
+				"background_color"
+			],
+			[
+				"assets",
+				"assetsSource"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
 				"u",
 				"ul\tTag"
 			],
@@ -86,10 +102,6 @@
 			[
 				"backgrou",
 				"background-position"
-			],
-			[
-				"di",
-				"div\tTag"
 			],
 			[
 				"op",
@@ -448,10 +460,6 @@
 				"align-items"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"updat",
 				"updateAvatar"
 			],
@@ -506,45 +514,11 @@
 			[
 				"socket",
 				"socketConnection"
-			],
-			[
-				"parent",
-				"parentElement"
-			],
-			[
-				"ELEM",
-				"elements"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "src/scss/_constants.scss",
-			"settings":
-			{
-				"buffer_size": 149,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/scss/index.scss",
-			"settings":
-			{
-				"buffer_size": 254,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/scss/_normalize.scss",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -593,18 +567,40 @@
 	"expanded_folders":
 	[
 		"/Users/wouterraateland/repositories/HackDelft-website",
+		"/Users/wouterraateland/repositories/HackDelft-website/build/images",
 		"/Users/wouterraateland/repositories/HackDelft-website/src",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/images",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/scss",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/pages",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials"
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/sections"
 	],
 	"file_history":
 	[
-		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/head.ejs",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/nav.ejs",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/views/pages/faq.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_header.scss",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/pages/home.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/package.json",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/nav.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_social.scss",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/_layout.scss",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_index.scss",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_nav.scss",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/sections/about.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/sections/schedule.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/sections/workshops.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/sections/faq.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/sections/sponsors.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/foot.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/index.scss",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/head.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/_constants.scss",
+		"/Users/wouterraateland/repositories/HackDelft-website/build/images/page_border.svg",
+		"/Users/wouterraateland/repositories/HackDelft-website/gulpfile.babel.js",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/_grid.scss",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/_normalize.scss",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/pages/faq.ejs",
 		"/Users/wouterraateland/repositories/HackDelft-website/index.js",
 		"/Users/wouterraateland/repositories/HackDelft-website/.gitignore",
 		"/Users/wouterraateland/repositories/HackDelft-website/hackdelft.sublime-project",
@@ -710,25 +706,7 @@
 		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/views/pages/publications.ejs",
 		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/dist/js/bundle.js",
 		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/dist/assets/images/facebook.svg",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/articles.json",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/views/pages/home.ejs",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/server.js",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/dist/css/normalize.css",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/views/partials/nav.ejs",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/views/pages/contact.ejs",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/views/pages/members.ejs",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/views/pages/awards.ejs",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/views/partials/foot.ejs",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/views/partials/head.ejs",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/package.json",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/dist/cssstyles.css",
-		"/Users/wouterraateland/Google Drive/ORAS/Website/assets/images/loop.svg",
-		"/Users/wouterraateland/Google Drive/ORAS/Website/assets/images",
-		"/Users/wouterraateland/Google Drive/ORAS/Website/normalize.css",
-		"/usr/local/mysql-5.7.9-osx10.9-x86_64/support-files/my-default.cnf",
-		"/Users/wouterraateland/Desktop/hoi.html",
-		"/Users/wouterraateland/Downloads/datasets/example.in",
-		"/Users/wouterraateland/Downloads/datasets/dataset7.in"
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/website/src/articles.json"
 	],
 	"find":
 	{
@@ -790,6 +768,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<li><a href=\"#faq\">Workshops</a></li>",
+			"assets",
+			"Assets",
+			"assets",
 			"border-bottom",
 			"right",
 			"left",
@@ -913,11 +895,7 @@
 			" style=\"text-align: justify;\"",
 			" style=\"color: #000000; text-align: justify;\"",
 			"nav ul§",
-			"vertical-align",
-			"half",
-			"#\"",
-			".slide a",
-			"box-sizing"
+			"vertical-align"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -966,94 +944,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/scss/_constants.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 149,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17,
-								23
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/scss/index.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 254,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								41,
-								41
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/scss/_normalize.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
