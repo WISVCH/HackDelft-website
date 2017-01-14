@@ -1,4 +1,3 @@
-import printText from './textPrinter';
-import sumNumbers, { a, b } from './constants';
+import graphCanvas from './graphCanvas'
 
-printText(sumNumbers(a, b));
+graphCanvas(document.querySelector('#backgroundCanvas'))

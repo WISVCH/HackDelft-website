@@ -1,10 +1,10 @@
 {
   "name": "hackdelft",
   "version": "1.0.0",
-  "description": "The website for HackDelft, the yearly hackathon of the TU Delft.",
+  "description": "The website for HackDelft, the annual hackathon of the TU Delft.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "test"
   },
   "repository": {

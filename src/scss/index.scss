@@ -8,9 +8,6 @@ body {
 	background-color: $background_color;
 
 	min-height: 100vh;
-
-	border: 4em solid;
-	border-image: url(/images/page_border.svg) 25% round;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
+	display: inline-block;
 	text-decoration: none;
 	color: $accent_color;
 }
@@ -38,9 +36,17 @@ p {
 	border-radius: .25rem;
 }
 
+.big {
+	font-size: 1.5em;
+}
+
 .accent {
 	background-color: $accent_color;
 	color: $background_color;
+}
+
+section {
+	padding: 4em;
 }
 
 @import 'components/index';

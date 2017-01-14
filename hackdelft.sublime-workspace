@@ -519,6 +519,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1281,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/views/pages/home.ejs",
+			"settings":
+			{
+				"buffer_size": 877,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -567,15 +583,12 @@
 	"expanded_folders":
 	[
 		"/Users/wouterraateland/repositories/HackDelft-website",
-		"/Users/wouterraateland/repositories/HackDelft-website/build/images",
 		"/Users/wouterraateland/repositories/HackDelft-website/src",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/images",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/js",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/scss",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/pages",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/sections"
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials"
 	],
 	"file_history":
 	[
@@ -768,6 +781,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";",
+			"from",
 			"<li><a href=\"#faq\">Workshops</a></li>",
 			"assets",
 			"Assets",
@@ -893,9 +908,7 @@
 			"h2",
 			"&nbsp;",
 			" style=\"text-align: justify;\"",
-			" style=\"color: #000000; text-align: justify;\"",
-			"nav ul§",
-			"vertical-align"
+			" style=\"color: #000000; text-align: justify;\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -944,8 +957,68 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								893,
+								893
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/views/pages/home.ejs",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 877,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1012,7 +1085,7 @@
 		[
 			[
 				"",
-				"~/Google Drive/Websites/current/ORAS/Theme/oras.sublime-workspace"
+				"~/Google Drive/Websites/current/ReportFlip/website/ReportFlip.sublime-project"
 			]
 		],
 		"width": 380.0
