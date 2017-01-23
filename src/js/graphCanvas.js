@@ -18,49 +18,66 @@ const arrClone = arr => {
     return res
 }
 
-let canvas, ctx, w, h, offset, oldLines, newLines, lastUpdate
+let canvas, ctx, w, h, graphHeight, graphBottom, fadeout, oldLines, newLines, lastUpdate
 
-const part = 0.3
+const minPart = 0.1
+const maxPart = 0.3
 const updateDuration = 2000 //ms
 const updateInterval = 2500 //ms
 const lineCount = 3
 const stepCount = 4
 
 const resize = () => {
-	w = window.innerWidth
-	h = window.innerHeight
+	const ratio = window.devicePixelRatio || 1
+	w = window.innerWidth * ratio
+	h = window.innerHeight * ratio
 
 	canvas.width = w
 	canvas.height = h
+
+	canvas.style.width = window.innerWidth + 'px';
+    canvas.style.height = window.innerHeight + 'px';
 
 	scroll()
 }
 
 const scroll = () => {
-	offset = Math.min(window.scrollY, (1 - part) * h)
+	let scrolled = Math.min(window.scrollY / window.innerHeight, 1)
+
+	graphBottom = 1 - (1 - minPart) * scrolled
+	graphHeight = minPart * scrolled + maxPart * (1 - scrolled)
 }
 
 const draw = () => {
 	ctx.clearRect(0, 0, w, h)
+	ctx.fillStyle = 'rgb(5, 0, 71)'
+	ctx.fillRect(0, 0, w, h*graphBottom)
 
 	getLines().forEach(line => {
 		ctx.beginPath()
-		ctx.moveTo(0, h - offset - line[0])
+		ctx.moveTo(0, h*(graphBottom - graphHeight*line[0]))
 
 		for (let i = 1, l = line.length - 1; i <= l; i++) {
-			ctx.lineTo(i * w / l, h - offset - line[i])
+			ctx.lineTo(i * w / l, h*(graphBottom - graphHeight*line[i]))
 		}
 
 		ctx.strokeStyle = '#fff'
 		ctx.stroke()
 
-		ctx.lineTo(w, h)
-		ctx.lineTo(0, h)
+		ctx.lineTo(w, h*graphBottom)
+		ctx.lineTo(0, h*graphBottom)
 		ctx.closePath()
 
 		ctx.fillStyle = 'rgba(255, 255, 255, 0.5)'
 		ctx.fill()
 	})
+
+	fadeout = ctx.createLinearGradient(0, h*graphBottom - 1, 0, h*(graphBottom + 0.1))
+	fadeout.addColorStop(0, 'rgba(224, 223, 232, 1)')
+	fadeout.addColorStop(1, 'rgba(224, 223, 232, 0)')
+
+	ctx.fillStyle = fadeout
+	ctx.fillRect(0, h*graphBottom - 1, w, h*0.1 + 1)
 
 	requestAnimationFrame(draw)
 }
@@ -85,15 +102,16 @@ const generateTrend = steps => () => {
 	const points = Math.pow(2, steps)
 	const res = new Array(points + 1)
 
-	res[0]              = rand(0, h * part)
-	res[res.length - 1] = rand(0, h * part)
+	res[0]              = rand(0, 1)
+	res[res.length - 1] = rand(0, 1)
 
 	let size = points;
 
 	while ((size = size / 2) >= 1) {
 		for (let i = size; i < points; i += 2*size) {
 			res[i] = (res[i - size] + res[i + size]) / 2 // Average
-			res[i] += rand(-h * part, h * part) * size / points // Add random part
+			res[i] += rand(-1, 1) * size / points // Add random part
+			res[i] = Math.max(0, res[i])
 		}
 	}
 
