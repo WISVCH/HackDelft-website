@@ -10,8 +10,7 @@ RUN npm install
 
 COPY . /app
 
-RUN gulp es6
-RUN gulp sass
+RUN gulp build
 
 EXPOSE 3000
 

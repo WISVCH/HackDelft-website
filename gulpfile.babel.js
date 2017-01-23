@@ -75,4 +75,5 @@ gulp.task('images:watch', () => {
 });
 
 gulp.task('watch', ['images:watch', 'es6:watch', 'sass:watch']);
-gulp.task('default', ['images', 'es6', 'sass', 'watch']);
+gulp.task('build', ['images', 'es6', 'sass']);
+gulp.task('default', ['build', 'watch']);
