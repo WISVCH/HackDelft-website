@@ -1,11 +1,20 @@
 #backgroundCanvas {
+	pointer-events: none;
+
 	position: fixed;
 	left: 0; top: 0;
-	right: 0; bottom: 0;
+	right: 0;
 
 	z-index: 1;
 
 	display: block;
 	width: 100vw;
-	height: 100vh;
+
+	@media screen and (orientation: landscape) {
+		height: 50vw;
+	}
+
+	@media screen and (orientation: portrait) {
+		height: 160vw;
+	}
 }

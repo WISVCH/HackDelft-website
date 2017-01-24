@@ -1,3 +1,5 @@
+import { isTouchDevice } from './featureDetection'
+
 const rand = (min, max) =>
 	min + (max - min) * Math.random()
 
@@ -18,7 +20,7 @@ const arrClone = arr => {
     return res
 }
 
-let canvas, ctx, w, h, graphHeight, graphBottom, fadeout, oldLines, newLines, lastUpdate
+let container, canvas, ctx, w, h, graphHeight, graphBottom, fadeout, oldLines, newLines, lastUpdate
 
 const minPart = 0.1
 const maxPart = 0.3
@@ -30,25 +32,22 @@ const stepCount = 4
 const resize = () => {
 	const ratio = window.devicePixelRatio || 1
 	w = window.innerWidth * ratio
-	h = window.innerHeight * ratio
+	h = container.offsetHeight * ratio
 
 	canvas.width = w
 	canvas.height = h
-
-	canvas.style.width = window.innerWidth + 'px';
-    canvas.style.height = window.innerHeight + 'px';
-
-	scroll()
 }
 
 const scroll = () => {
-	let scrolled = Math.min(window.scrollY / window.innerHeight, 1)
+	let scrolled = Math.min(window.scrollY / container.offsetHeight, 1)
 
 	graphBottom = 1 - (1 - minPart) * scrolled
 	graphHeight = minPart * scrolled + maxPart * (1 - scrolled)
 }
 
 const draw = () => {
+	scroll()
+
 	ctx.clearRect(0, 0, w, h)
 	ctx.fillStyle = 'rgb(5, 0, 71)'
 	ctx.fillRect(0, 0, w, h*graphBottom)
@@ -129,7 +128,8 @@ const updateLines = () => {
 	setTimeout(updateLines, updateInterval)
 }
 
-const graphCanvas = canvasEl => {
+const graphCanvas = (containerEl, canvasEl) => {
+	container = containerEl
 	canvas = canvasEl
 	ctx = canvas.getContext('2d')
 
@@ -139,7 +139,6 @@ const graphCanvas = canvasEl => {
 	updateLines()
 
 	window.addEventListener('resize', resize)
-	window.addEventListener('scroll', scroll)
 
 	requestAnimationFrame(draw)
 }

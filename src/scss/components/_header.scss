@@ -1,3 +1,13 @@
+.header-wrapper {
+	@media screen and (orientation: landscape) {
+		height: 50vw;
+	}
+
+	@media screen and (orientation: portrait) {
+		height: 160vw;
+	}
+}
+
 header {
 	position: relative;
 	z-index: 1;
