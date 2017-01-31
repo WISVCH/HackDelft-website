@@ -6,6 +6,12 @@
 			[
 				"hackdelft.sublime-project"
 			],
+			"folder_exclude_patterns":
+			[
+				"build",
+				"app",
+				"node_modules"
+			],
 			"path": "."
 		}
 	]

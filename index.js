@@ -10,11 +10,11 @@ app.set('views', './src/views/')
 app.use(express.static('./build'))
 
 app.get('/', (req, res) => {
-	res.render('pages/home')
+	res.render('index')
 })
 
-app.get('/faq', (req, res) => {
-	res.render('pages/faq')
+app.get('*', (req, res) => {
+	res.render('404')
 })
 
 app.listen(3000, () => {

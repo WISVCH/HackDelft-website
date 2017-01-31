@@ -1,0 +1,32 @@
+#scheduleContainer {
+	h3 {
+		padding-bottom: 1em;
+		margin-bottom: 0;
+		border-bottom: 2px solid $primary_color;
+	}
+
+	.date {
+		padding: .5em .5em .5em 8em;
+		border-bottom: 2px solid $primary_color;
+
+		&.important {
+			color: $accent_color;
+		}
+
+		&::before {
+			content: attr(data-start);
+
+			display: inline-block;
+			width: 7em;
+			padding-right: 1em;
+			margin-left: -7.5em;
+
+			opacity: .5;
+			text-align: right;
+		}
+
+		&.duration::before {
+			content: attr(data-start) ' - ' attr(data-end);
+		}
+	}
+}

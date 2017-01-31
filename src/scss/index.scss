@@ -16,6 +16,15 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: $header_font;
 }
 
+h2 {
+	font-size: 3em;
+	text-align: center;
+
+	@media screen and (max-width: 480px) {
+		font-size: 2em;
+	}
+}
+
 a {
 	display: inline-block;
 	text-decoration: none;
@@ -31,10 +40,21 @@ p {
 }
 
 .button {
+	cursor: pointer;
+
 	padding: .5em;
 
 	border: .2rem solid;
 	border-radius: .25rem;
+
+	transition: color .2s, background-color .2s;
+
+	&:hover {
+		border-color: $accent_color;
+
+		color: $background_color;
+		background-color: $accent_color;
+	}
 }
 
 .big {
@@ -44,6 +64,19 @@ p {
 .accent {
 	background-color: $accent_color;
 	color: $background_color;
+}
+
+#message404 {
+	position: absolute;
+	left: 0; top: 0;
+	right: 0; bottom: 0;
+
+	height: 9em;
+	margin: auto;
+
+	text-align: center;
+	font-family: monospace;
+	font-weight: bold;
 }
 
 main {

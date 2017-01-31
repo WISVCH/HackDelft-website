@@ -1,19 +1,23 @@
 .facebook,
 .twitter,
-.linkedin {
+.linkedin,
+.email {
 	display: inline-block;
-	width: 1.5em;
-	height: 1.5em;
-	margin: -.25em;
+	width: 2em;
+	height: 2em;
+	margin: 1em 1em 4em;
 
-	background: no-repeat top;
+	background: no-repeat center;
 	background-size: 100%;
 
+	transition: opacity .2s;
+
 	&:hover {
-		background-position: bottom;
+		opacity: .8;
 	}
 }
 
 .facebook { background-image: url(/images/facebook.svg); }
 .twitter  { background-image: url(/images/twitter.svg);  }
 .linkedin { background-image: url(/images/linkedin.svg); }
+.email { background-image: url(/images/email.svg); }

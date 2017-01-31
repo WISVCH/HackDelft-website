@@ -1,13 +1,44 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>HackDelft - TrendHacking</title>
-	<link href="/css/index.css" type="text/css" rel="stylesheet">
-</head>
-<body>
-	<h1><%= title%></h1>
+<% include partials/head %>
 
+<header class="wrapper">
+	<div class="row">
+		<div class="col-m-2 col-l-2"></div>
+		<p class="col-8 col-s-12">
+			<span class="alignleft">May 13 - 14, 2017</span>
+			<span class="alignright">@ TU Delft</span>
+		</p>
+		<div class="col-m-2 col-l-2"></div>
+	</div>
+	<div class="row center">
+		<div class="col-m-2 col-l-2"></div>
+		<img class="col-8 col-s-12" src="/images/hackdelft_logo_white.svg">
+		<div class="col-m-2 col-l-2"></div>
+	</div>
 
-	<script src="/js/index.js"></script>
-</body>
-</html>
+	<div class="spacing"></div>
+	<div class="row center">
+		<a class="button big">Apply now</a>
+	</div>
+</header>
+
+<main>
+	<% include sections/about %>
+	<% include sections/cases %>
+	<% include sections/speakers %>
+	<% include sections/schedule %>
+	<% include sections/faq %>
+	<% include sections/sponsors %>
+	<% include sections/crew %>
+</main>
+
+<footer class="wrapper">
+	<div class="row center">
+		<a class="social facebook" href="https://www.facebook.com/hackdelft" target="_blank"></a>
+		<a class="social twitter" href="https://twitter.com/hackdelft" target="_blank"></a>
+		<a class="social email" href="mailto:hackathoncrew@ch.tudelft.nl" target="_blank"></a>
+		<p>Copyright © 2016 by W.I.S.V. ‘Christiaan Huygens’. All rights reserved.</p>
+		<p>Chamber of Commerce 40397077</p>
+	</div>
+</footer>
+
+<% include partials/foot %>

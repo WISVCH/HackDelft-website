@@ -20,7 +20,7 @@ const arrClone = arr => {
     return res
 }
 
-let container, canvas, ctx, w, h, graphHeight, graphBottom, fadeout, oldLines, newLines, lastUpdate
+let container, canvas, ctx, w, h, ratio, graphHeight, graphBottom, fadeout, oldLines, newLines, lastUpdate
 
 const minPart = 0.1
 const maxPart = 0.3
@@ -30,7 +30,7 @@ const lineCount = 3
 const stepCount = 4
 
 const resize = () => {
-	const ratio = window.devicePixelRatio || 1
+	ratio = window.devicePixelRatio || 1
 	w = window.innerWidth * ratio
 	h = container.offsetHeight * ratio
 
@@ -61,6 +61,7 @@ const draw = () => {
 		}
 
 		ctx.strokeStyle = '#fff'
+		ctx.lineWidth = 2*ratio
 		ctx.stroke()
 
 		ctx.lineTo(w, h*graphBottom)
