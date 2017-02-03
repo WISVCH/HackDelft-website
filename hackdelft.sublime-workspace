@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"spon",
+				"sponsors"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"cons",
+				"console.log"
+			],
+			[
+				"create",
+				"createElement()\tReact"
+			],
+			[
+				"crea",
+				"createElement()\tReact"
+			],
+			[
 				"grap",
 				"graphBottom"
 			],
@@ -22,10 +50,6 @@
 			[
 				"assets",
 				"assetsSource"
-			],
-			[
-				"di",
-				"display"
 			],
 			[
 				"u",
@@ -194,10 +218,6 @@
 			[
 				"le",
 				"length"
-			],
-			[
-				"create",
-				"createOption"
 			],
 			[
 				"confi",
@@ -494,37 +514,43 @@
 			[
 				"retun",
 				"returnCrate"
-			],
-			[
-				"remov",
-				"removeFromUser"
-			],
-			[
-				"socke",
-				"socketController"
-			],
-			[
-				"unb",
-				"unbuyCrate"
-			],
-			[
-				"redis",
-				"redisClient"
-			],
-			[
-				"cookie",
-				"cookieParser"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "src/js/graphCanvas.js",
+			"file": "src/views/index.ejs",
 			"settings":
 			{
-				"buffer_size": 3319,
+				"buffer_size": 1333,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/views/partials/head.ejs",
+			"settings":
+			{
+				"buffer_size": 333,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/_constants.scss",
+			"settings":
+			{
+				"buffer_size": 214,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/_layout.scss",
+			"settings":
+			{
+				"buffer_size": 2964,
 				"line_ending": "Unix"
 			}
 		}
@@ -577,25 +603,42 @@
 	[
 		"/Users/wouterraateland/repositories/HackDelft-website",
 		"/Users/wouterraateland/repositories/HackDelft-website/src",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/js",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/scss",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/views"
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials"
 	],
 	"file_history":
 	[
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/sections/about.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/sections/cases.ejs",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/index.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/sections/workshops.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/sections/speakers.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_crew.scss",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/index.scss",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/sections/crew.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_index.scss",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_schedule.scss",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_footer.scss",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/sections/faq.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/js/schedule.js",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_social.scss",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/images/email.svg",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/images/facebook.svg",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/images/twitter.svg",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_sponsors.scss",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/sections/sponsors.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/sections/schedule.ejs",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/js/index.js",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/schedule.json",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/js/graphCanvas.js",
 		"/Users/wouterraateland/repositories/HackDelft-website/index.js",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/404.ejs",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_background.scss",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_header.scss",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/schedule.json",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/sections/schedule.ejs",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/js/schedule.js",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/pages/home.ejs",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/js/graphCanvas.js",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/js/featureDetection.js",
 		"/Users/wouterraateland/repositories/HackDelft-website/gulpfile.babel.js",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/head.ejs",
@@ -608,10 +651,8 @@
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/sections/speakers.ejs",
 		"/Users/wouterraateland/repositories/HackDelft-website/Dockerfile",
 		"/Users/wouterraateland/repositories/HackDelft-website/.gitignore",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_index.scss",
 		"/Users/wouterraateland/repositories/HackDelft-website/package.json",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/nav.ejs",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_social.scss",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_nav.scss",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/sections/workshops.ejs",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/sections/sponsors.ejs",
@@ -696,22 +737,7 @@
 		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/views/pages/home.ejs",
 		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/views/partials/member.ejs",
 		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/views/pages/member.ejs",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/members.json",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/server.js",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/views/pages/404.ejs",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/build/css/normalize.css",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/views/pages/temp/innopay.ejs",
-		"/Users/wouterraateland/Desktop/BTC1511_Map_Graphic_EUROPE.png",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/views/partials/nav.ejs",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/config.js",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/.gitignore",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/app.js",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/scss/_constants.scss",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/scss/main.scss",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/node_modules/node-sass/src/libsass/src/color_maps.cpp",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/scss/nav.scss",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/scss/styles.scss",
-		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/scss/constants.scss"
+		"/Users/wouterraateland/Google Drive/Websites/current/EPCA/epca/src/members.json"
 	],
 	"find":
 	{
@@ -722,6 +748,7 @@
 		"height": 154.0,
 		"where_history":
 		[
+			"<open folders>",
 			"/Users/wouterraateland/Google Drive/Websites/current/ORAS/Theme",
 			"<open folders>",
 			"/Users/wouterraateland/pilsmeister/src",
@@ -773,6 +800,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"col-4",
+			"center",
+			"transparent",
+			"#fff",
+			"linkedin",
+			"col-s-12",
+			"col-m-6",
+			"col-6-m",
+			"Dinner served",
+			"getTime",
 			"<br>",
 			"bsp;_",
 			"_&nbsp;",
@@ -890,17 +927,7 @@
 			"child",
 			"col",
 			"li",
-			"border-radiu",
-			"box-sizing",
-			"</p>",
-			"<p>",
-			"third",
-			"dist",
-			"\"",
-			"h2",
-			"ec5",
-			"border-radi",
-			"border-radi\t"
+			"border-radiu"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -949,36 +976,121 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/js/graphCanvas.js",
+					"file": "src/views/index.ejs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3319,
+						"buffer_size": 1333,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1401,
-								1401
+								470,
+								470
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/views/partials/head.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								230,
+								230
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/scss/_constants.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/scss/_layout.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2964,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2964
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1836.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1047,7 +1159,7 @@
 		[
 			[
 				"",
-				"~/Google Drive/Websites/current/EPCA/epca/epca.sublime-project"
+				"~/Google Drive/Websites/current/ORAS/oras.sublime-project"
 			]
 		],
 		"width": 380.0

@@ -25,7 +25,7 @@ let container, canvas, ctx, w, h, ratio, graphHeight, graphBottom, fadeout, oldL
 const minPart = 0.1
 const maxPart = 0.3
 const updateDuration = 2000 //ms
-const updateInterval = 2500 //ms
+const updateInterval = 4500 //ms
 const lineCount = 3
 const stepCount = 4
 
