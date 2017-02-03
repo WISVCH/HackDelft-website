@@ -1,3 +1,11 @@
+.ch-logo {
+	position: absolute;
+	right: 1em; top: 1em;
+	z-index: 3;
+
+	width: 10em;
+}
+
 header {
 	position: relative;
 	z-index: 1;
@@ -7,5 +15,9 @@ header {
 	.figure {
 		margin-top: 1em;
 		height: 10em;
+	}
+
+	.tagline {
+		font-size: 1.5em;
 	}
 }
