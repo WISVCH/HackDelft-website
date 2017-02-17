@@ -523,16 +523,16 @@
 			"file": "src/views/index.ejs",
 			"settings":
 			{
-				"buffer_size": 1333,
+				"buffer_size": 1418,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/views/partials/head.ejs",
+			"file": "src/scss/components/_header.scss",
 			"settings":
 			{
-				"buffer_size": 333,
+				"buffer_size": 233,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -542,15 +542,6 @@
 			"settings":
 			{
 				"buffer_size": 214,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/scss/_layout.scss",
-			"settings":
-			{
-				"buffer_size": 2964,
 				"line_ending": "Unix"
 			}
 		}
@@ -606,10 +597,16 @@
 		"/Users/wouterraateland/repositories/HackDelft-website/src/scss",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials"
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/sections"
 	],
 	"file_history":
 	[
+		"/Users/wouterraateland/repositories/HackDelft-website/src/schedule.json",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/head.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/views/sections/crew.ejs",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/js/graphCanvas.js",
+		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/_constants.scss",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/sections/about.ejs",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/sections/cases.ejs",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/index.ejs",
@@ -617,7 +614,6 @@
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/sections/speakers.ejs",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_crew.scss",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/index.scss",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/views/sections/crew.ejs",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_index.scss",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_schedule.scss",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_footer.scss",
@@ -631,8 +627,6 @@
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/sections/sponsors.ejs",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/sections/schedule.ejs",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/js/index.js",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/schedule.json",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/js/graphCanvas.js",
 		"/Users/wouterraateland/repositories/HackDelft-website/index.js",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/404.ejs",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/components/_background.scss",
@@ -641,8 +635,6 @@
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/pages/home.ejs",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/js/featureDetection.js",
 		"/Users/wouterraateland/repositories/HackDelft-website/gulpfile.babel.js",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/head.ejs",
-		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/_constants.scss",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/sections/faq.ejs",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/scss/_layout.scss",
 		"/Users/wouterraateland/repositories/HackDelft-website/src/views/partials/sections/cases.ejs",
@@ -985,15 +977,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1333,
+						"buffer_size": 1418,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								470,
-								470
+								48,
+								48
 							]
 						],
 						"settings":
@@ -1005,35 +997,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/views/partials/head.ejs",
+					"file": "src/scss/components/_header.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 333,
+						"buffer_size": 233,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								230,
-								230
+								67,
+								67
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1049,8 +1041,8 @@
 						"selection":
 						[
 							[
-								213,
-								214
+								42,
+								48
 							]
 						],
 						"settings":
@@ -1062,35 +1054,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/scss/_layout.scss",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2964,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								2964
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1836.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
