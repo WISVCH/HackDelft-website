@@ -39,3 +39,5 @@ jspm_packages
 
 # Sublime project
 .hackdelft.sublime-*
+
+.DS_Store
