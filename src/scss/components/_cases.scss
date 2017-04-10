@@ -1,0 +1,22 @@
+.case {
+	@media screen and (max-width: 480px) {
+		padding-top: 2em;
+		
+		img {
+			display: block;
+			width: 75%;
+			margin: auto;
+		}
+	}
+
+	@media screen and (min-width: 481px) {
+		display: flex;
+		align-items: center;
+
+		padding-top: 3em;
+
+		&:nth-child(2n + 1) {
+			flex-direction: row-reverse;
+		}
+	}
+}
