@@ -1,7 +1,11 @@
+#cases h2 {
+	margin-bottom: -1em;
+}
+
 .case {
 	@media screen and (max-width: 480px) {
 		padding-top: 2em;
-		
+
 		img {
 			display: block;
 			width: 75%;
