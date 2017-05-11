@@ -70,6 +70,11 @@ p {
 	color: $background_color;
 }
 
+.light {
+	background-color: $primary_color;
+	color: $background_color;
+}
+
 #message404 {
 	position: absolute;
 	left: 0; top: 0;
