@@ -10,14 +10,17 @@ const init = () => {
 
 	now()
 
-	graphCanvas(
-		document.querySelector('header'),
-		document.querySelector('#backgroundCanvas')
-	)
+	const header = document.querySelector('header')
+	const canvas = document.querySelector('#backgroundCanvas')
+	const scheduleContainer = document.querySelector('#scheduleContainer')
 
-	schedule(
-		document.querySelector('#scheduleContainer')
-	)
+	if (header && canvas) {
+		graphCanvas(header, canvas)
+	}
+
+	if (scheduleContainer) {
+		schedule(scheduleContainer)
+	}
 }
 
 window.addEventListener('load', init)

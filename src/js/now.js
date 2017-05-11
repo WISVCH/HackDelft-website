@@ -75,10 +75,12 @@ const convertDate = date => Object.assign(date, {
 })
 
 const now = () => {
-	formattedDates = dates.map(convertDate)
+	if (hackTimer != null) {
+		formattedDates = dates.map(convertDate)
 
-	update()
-	setInterval(update, 1000)
+		update()
+		setInterval(update, 1000)
+	}
 }
 
 export default now
