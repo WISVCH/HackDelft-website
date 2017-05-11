@@ -13,6 +13,10 @@ app.get('/', (req, res) => {
 	res.render('index')
 })
 
+app.get('/now', (req, res) => {
+	res.render('now')
+})
+
 app.get('*', (req, res) => {
 	res.render('404')
 })
