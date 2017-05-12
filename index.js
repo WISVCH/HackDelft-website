@@ -21,6 +21,10 @@ app.get('/case', (req, res) => {
 	res.redirect('http://www.pollandmatch.com/chooser?pollownerid=5790946717335552&pollid=5707702298738688')
 })
 
+app.get('/submit', (req, res) => {
+	res.redirect('https://hackdelft.devpost.com/')
+})
+
 app.get('*', (req, res) => {
 	res.render('404')
 })
