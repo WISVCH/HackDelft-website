@@ -49,7 +49,7 @@ const draw = () => {
 	scroll()
 
 	ctx.clearRect(0, 0, w, h)
-	ctx.fillStyle = 'rgb(5, 0, 71)'
+	ctx.fillStyle = '#050047'
 	ctx.fillRect(0, 0, w, h*graphBottom)
 
 	getLines().forEach(line => {
