@@ -1,0 +1,81 @@
+.winner {
+	position: relative;
+	margin-top: 1.33333em;
+	padding-top: 56.25%;
+
+	overflow: hidden;
+
+	img {
+		position: absolute;
+		left: 50%; top: 50%;
+
+		width: 100%;
+		max-height: none;
+
+		transform: translate(-50%, -50%);
+	}
+
+	h3 {
+		position: absolute;
+		left: 0;
+		right: 0; bottom: 0;
+
+		padding: .5em;
+		margin: 0;
+
+		font-size: 1.5em;
+
+		color: $primary_color;
+		background-color: rgba(0, 0, 0, .5);
+	}
+}
+
+.prize {
+	position: absolute;
+	right: 0; top: 0;
+	z-index: 0;
+
+	height: 3em;
+	padding: 1em;
+	text-align: right;
+
+	color: $primary_color;
+
+	&::before {
+		content: '';
+
+		position: absolute;
+		top: 0; right: 0;
+		z-index: -1;
+
+		border: solid transparent;
+		border-width: 0 5em 5em 0;
+		border-right-color: $accent_color;
+	}
+
+	&.company::before {
+		border-width: 0 10em 5em 0;
+	}
+
+	&.mlh {
+		overflow: hidden;
+
+		position: relative;
+		z-index: 1;
+
+		height: 4em;
+		margin: 1.33333em 0 -2.33333em;
+
+		&::before {
+			height: 4em;
+			border-width: 0em 20em 1em 0;
+		}
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.prize,
+	.winner {
+		font-size: 2vw;
+	}
+}
