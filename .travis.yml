@@ -1,0 +1,12 @@
+language: generic
+services:
+- docker
+script:
+- docker build --no-cache --pull -t wisvch/hackdelft:$TRAVIS_BUILD_NUMBER .
+after_success:
+- if [ "${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}" == "master" ]; then
+  docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
+  docker push wisvch/hackdelft:$TRAVIS_BUILD_NUMBER;
+  fi
+notifications:
+  email: false
