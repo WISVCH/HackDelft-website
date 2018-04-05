@@ -1,0 +1,15 @@
+[ignore]
+
+[include]
+/src/*.js
+
+[libs]
+
+[lints]
+
+[options]
+
+[strict]
+
+[version]
+^0.58.0
