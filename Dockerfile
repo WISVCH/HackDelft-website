@@ -2,6 +2,5 @@ FROM nginx:alpine
 COPY . /react
 RUN apk update
 RUN apk add yarn
-RUN cd /react
-RUN yarn build
+RUN cd /react && yarn build
 RUN mv /react/build/* /usr/share/nginx/html
