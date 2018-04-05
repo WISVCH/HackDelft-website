@@ -70,7 +70,7 @@ class Promo extends Article {
                   >
                     <ItemLogo
                       style={{
-                        backgroundImage: 'url("assets/' + item.asset + '")'
+                        backgroundImage: 'url("' + item.asset + '")'
                       }}
                     />
                     <ItemTitle>{item.title}</ItemTitle>
