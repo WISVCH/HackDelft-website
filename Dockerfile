@@ -1,2 +1,3 @@
 FROM nginx:alpine
-COPY . /usr/share/nginx/html
+RUN yarn build
+COPY /build /usr/share/nginx/html
