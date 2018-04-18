@@ -7,10 +7,7 @@ const faq = [
   {
     title: 'How do applications work?',
     body:
-      'You can register now by filling out the registration form! We’ll get in touch to let you know whether you’ve been invited to attend.',
-    href:
-      'https://docs.google.com/forms/d/e/1FAIpQLSekDqaHtcEw-ZQ5gajyMnqVUXO-Gdrs3lSLnjWJKGr8h5pCqA/viewform',
-    hrefText: 'Register now!'
+      "Registrations are now closed! If you've signed up we'll get in touch soon!"
   },
   {
     title: "What if I've never been to a hackathon before?",
@@ -21,6 +18,10 @@ const faq = [
     title: 'How much does it cost to attend HackDelft?',
     body:
       'Nothing! HackDelft is completely free, thanks to our amazing partners.'
+  },
+  {
+    title: 'Can I request travel reimbursement?',
+    body: 'We do not provide travel reimbursements.'
   },
   {
     title: 'What should I bring to HackDelft?',
