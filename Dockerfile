@@ -4,5 +4,5 @@ COPY . .
 RUN yarn
 RUN yarn build
 
-FROM nginx:alpine
-COPY --from=builder /src/build /usr/share/nginx/html
+FROM wisvch/nginx
+COPY --from=builder /src/build/ /srv/
