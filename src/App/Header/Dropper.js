@@ -25,7 +25,11 @@ class Dropper extends Component {
     return (
       <Wrapper>
         {dropperContent.map((content, index) => (
-          <DropperComponent key={index} text={content} />
+          <DropperComponent
+            calendar={this.props.calendar}
+            key={index}
+            text={content}
+          />
         ))}
       </Wrapper>
     );

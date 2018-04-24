@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 import Article from './Components/Article';
+import Calendar from './Components/Calendar';
 import Collection from './Components/Collection';
 import Promo from './Components/Promo';
 import Title from './Components/Title';
@@ -18,21 +19,29 @@ class Content extends Component {
   render() {
     return (
       <Wrapper>
-        {content.map(item => {
+        {content.map((item, index) => {
           switch (item.type.toUpperCase()) {
             case 'COLLECTION':
-              return <Collection title={item.title} items={item.items} />;
+              return (
+                <Collection key={index} title={item.title} items={item.items} />
+              );
             case 'ARTICLE':
               return (
-                <article>
+                <article key={index}>
                   <Title title={item.title} />
                   <Article content={item.body} />
                 </article>
               );
             case 'PROMO':
-              return <Promo title={item.title} items={item.items} />;
+              return (
+                <Promo key={index} title={item.title} items={item.items} />
+              );
+            case 'CALENDAR':
+              return (
+                <Calendar key={index} title={item.title} items={item.items} />
+              );
             default:
-              return;
+              return <div />;
           }
         })}
       </Wrapper>

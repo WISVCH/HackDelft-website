@@ -38,6 +38,10 @@ class DropperComponent extends Component {
       position: Math.random() > 0.5 ? 'left' : 'right',
       size: Math.ceil(zoom * 12) + 8
     };
+
+    if (this.props.calendar) {
+      this.state.size = Math.ceil(zoom * 8) + 6;
+    }
   }
 
   generateText = text => {
@@ -47,6 +51,13 @@ class DropperComponent extends Component {
         case 'bug':
           return text.toUpperCase();
         default:
+          if (this.props.calendar) {
+            return text
+              .toUpperCase()
+              .split('')
+              .map((t, i) => (i === 0 ? t : '<br />' + t))
+              .join('');
+          }
           var items = text
             .toUpperCase()
             .split('')
@@ -80,6 +91,9 @@ class DropperComponent extends Component {
       fontSize: this.state.size + 'px',
       lineHeight: this.state.size * 1.1 + 'px'
     };
+    if (this.props.calendar) {
+      droppableStyle.color = 'rgba(255, 255, 255, ' + this.state.alpha + ')';
+    }
     droppableStyle[this.state.position] = this.state.horizontal + '%';
     return (
       <Droppable

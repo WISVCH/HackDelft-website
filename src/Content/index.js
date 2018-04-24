@@ -1,5 +1,6 @@
 import faq from './faq';
 import partners from './partners';
+import planning from './planning';
 import supporting from './supporting';
 
 const content = [
@@ -12,8 +13,12 @@ const content = [
   {
     type: 'Article',
     title: 'When is HackDelft?',
-    body:
-      'HackDelft will be taking place in the weekend of April 28 and 29. Schedule coming soon!'
+    body: 'HackDelft will be taking place in the weekend of April 28 and 29.'
+  },
+  {
+    type: 'Calendar',
+    title: 'Schedule',
+    items: planning
   },
   {
     type: 'Promo',
