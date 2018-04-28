@@ -5,6 +5,9 @@ import styled from 'styled-components';
 import { withStyles } from 'material-ui/styles';
 import Dropper from '../Header/Dropper';
 import Switch from 'material-ui/Switch';
+import Card, { CardActions, CardContent, CardMedia } from 'material-ui/Card';
+import Button from 'material-ui/Button';
+import Typography from 'material-ui/Typography';
 
 import {
   rgbToHsl,
@@ -182,6 +185,11 @@ const Option = styled.div`
 const OptionLabel = styled.div`
   width: auto;
   font-size: 14px;
+`;
+const CardContainer = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
 `;
 
 class Calendar extends Article {
@@ -601,10 +609,37 @@ class Calendar extends Article {
     );
   };
 
+  renderCard = () => {
+    const { classes } = this.props;
+    return (
+      <CardContainer>
+        <Card className={classes.card}>
+          <CardMedia
+            className={classes.media}
+            image="/static/images/cards/contemplative-reptile.jpg"
+            title="Contemplative Reptile"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="headline" component="h2">
+              Lizard
+            </Typography>
+            <Typography component="p">
+              Lizards are a widespread group of squamate reptiles, with over
+              6,000 species, ranging across all continents except Antarctica
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button size="small" color="primary">
+              Close
+            </Button>
+          </CardActions>
+        </Card>
+      </CardContainer>
+    );
+  };
+
   content = () => {
     const { classes } = this.props;
-    console.log(this.props);
-
     return (
       <Wrapper>
         <Title>{this.props.title ? this.props.title : 'PROP: TITLE'}</Title>
@@ -627,6 +662,7 @@ class Calendar extends Article {
         <DayContainer>
           {this.renderCalendarDays(this.state.calendar)}
         </DayContainer>
+        {/* {this.renderCard()} */}
       </Wrapper>
     );
   };
