@@ -1,5 +1,11 @@
 const faq = [
   {
+    title: 'Sumbissions',
+    body: 'You can submit your code, project files and presentation at DevHub.',
+    href: 'https://delft.devpost.com/',
+    hrefText: 'Visit our DevHub page'
+  },
+  {
     title: 'Dataset Booking.com',
     body:
       'Top right corner: “Sign in to documentation.” Username: booking_hackathon_ichack18 Password: WorkingAtBooking.com2018',
