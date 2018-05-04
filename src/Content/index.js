@@ -1,5 +1,4 @@
 import faq from './faq';
-import links from './links';
 import partners from './partners';
 import planning from './planning';
 import supporting from './supporting';
@@ -16,7 +15,6 @@ const content = [
     title: 'When is HackDelft?',
     body: 'HackDelft will be taking place in the weekend of April 28 and 29.'
   },
-  { type: 'Collection', title: 'Useful links', items: links },
   {
     type: 'Calendar',
     title: 'Schedule',
