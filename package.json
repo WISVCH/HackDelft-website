@@ -2,7 +2,7 @@
   "name": "hackdelft-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.hackdelft.com",
+  "homepage": "https://www.hackdelft.com",
   "dependencies": {
     "axios": "^0.17.1",
     "material-ui": "^1.0.0-beta.34",
